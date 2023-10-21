@@ -41,7 +41,9 @@ const Description = () => {
             <h1 className="text-white">{activeItem.title}</h1>
           </div>
 
-          <p className="text-gray-300">{activeItem.description}</p>
+          <p className="text-gray-300 mt-8 whitespace-pre-line">
+            {activeItem.description}
+          </p>
         </div>
       ) : null}
 
@@ -118,21 +120,32 @@ const Description = () => {
 
 export default Description;
 
+const dummyDescription = `In the fast-paced world of modern technology, 24/7 data collection and communication have become the lifeblood of our digital existence. This unceasing process is akin to a tireless sentinel, continuously monitoring, gathering, and disseminating information around the clock.
+
+In a world where data is the new currency, our systems tirelessly work day and night, tirelessly sifting through the vast digital landscape to acquire valuable insights and information. These tireless digital sentinels are the backbone of businesses, governments, and individuals, ensuring that the flow of data is unbroken and relentless.
+
+Around the clock, data collectors tirelessly track and record information from various sources, including sensors, devices, and online platforms. They meticulously capture and store data, ensuring that no fragment of information escapes their watchful eyes. It is as though they never sleep, perpetually alert to the digital universe's happenings.
+
+Simultaneously, the communication networks remain fully operational, facilitating the rapid exchange of information. In this ever-connected world, data is transmitted seamlessly and instantaneously, bridging distances and allowing individuals and organizations to be in perpetual contact. It's as if there's a digital heartbeat that never stops, pulsating with the constant flow of data.
+
+The 24/7 data collection and communication infrastructure is not only an integral part of our digital lives but also the driving force behind innovation and progress. It fuels the algorithms that make personalized recommendations, optimizes traffic flows, and even enables the swift response to emergencies. It is the life force of the information age, perpetually active and vigilant, ensuring the world never misses a beat.
+`;
+
 const data = [
   {
     title: "24/7 data collection & comunication",
     images: ["/resources/communication.jpg"],
-    description: "",
+    description: dummyDescription,
   },
   {
     title: "Real-time 3D satelite geopositioning",
     images: ["/resources/3d-satelite-positioning.png"],
-    description: "",
+    description: dummyDescription,
   },
   {
     title: "Independent from other networks and entities",
     images: ["/resources/independence.jpg"],
-    description: "",
+    description: dummyDescription,
   },
   {
     title: "Self-deorbiting mechanism",
@@ -141,6 +154,6 @@ const data = [
       "/resources/deorbiting-1.jpg",
       "/resources/deorbiting.gif",
     ],
-    description: "",
+    description: dummyDescription,
   },
 ];
