@@ -10,10 +10,7 @@ const Description = () => {
   } | null>(null);
 
   return (
-    <section
-      className="w-full p-4 pb-20 md:p-20 flex flex-col gap-16 md:gap-36 z-20 bg-black/80"
-      id="learn-more"
-    >
+    <section className="w-full p-4 pb-20 md:p-20 flex flex-col gap-16 md:gap-36 z-20 bg-black/80">
       {activeItem ? (
         <div className="w-full h-screen overflow-y-auto fixed top-0 left-0 bg-black p-4 pt-20 md:pt-20 md:p-20">
           <button
@@ -170,6 +167,7 @@ const data = [
     images: [
       "/resources/deorbiting.jpg",
       "/resources/deorbiting-1.jpg",
+      "/resources/deorbiting-1.gif",
       "/resources/deorbiting.gif",
     ],
     description: dummyDescription,

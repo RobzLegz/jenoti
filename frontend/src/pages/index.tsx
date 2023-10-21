@@ -3,6 +3,8 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Description from "../components/Description";
 import Footer from "../components/Footer";
+import Links from "@/components/Links";
+import Satelite from "@/components/Satelite";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +17,11 @@ export default function Home() {
 
       <Header />
 
+      <Satelite />
+
       <Description />
+
+      <Links />
 
       <Footer />
     </main>

@@ -20,12 +20,6 @@ const Header = () => {
           >
             Learn more
           </Link>
-          <button
-            className="w-[150px] md:w-60 h-16 bg-white text-black text-xl rounded-full opacity-50"
-            disabled
-          >
-            Buy now
-          </button>
         </div>
       </div>
     </div>
