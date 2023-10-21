@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Test from "./Test";
 
 const Header = () => {
@@ -11,9 +12,12 @@ const Header = () => {
         </h1>
 
         <div className="flex items-center justify-center gap-4 mt-8">
-          <button className="w-60 h-16 border-2 border-white text-white bg-black text-xl rounded-full">
+          <Link
+            href="#learn-more"
+            className="flex items-center justify-center w-60 h-16 border-2 border-white text-white bg-black text-xl rounded-full"
+          >
             Learn more
-          </button>
+          </Link>
           <button className="w-60 h-16 bg-white text-black text-xl rounded-full">
             Buy now
           </button>
