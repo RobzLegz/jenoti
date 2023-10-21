@@ -15,7 +15,7 @@ const Description = () => {
       id="learn-more"
     >
       {activeItem ? (
-        <div className="w-full h-screen overflow-y-auto fixed top-0 left-0 bg-black p-20">
+        <div className="w-full h-screen overflow-y-auto fixed top-0 left-0 bg-black p-4 pt-20 md:pt-20 md:p-20">
           <button
             className="absolute top-4 right-4"
             onClick={() => {
@@ -26,7 +26,7 @@ const Description = () => {
             <XMarkIcon className="text-white h-12" />
           </button>
 
-          <div className="flex gap-8 items-end mb-4">
+          <div className="flex flex-col md:flex-row md:gap-8 gap-4 md:items-end mb-4">
             {activeItem.images.length === 1 ? (
               <Image
                 src={activeItem.images[0]}
@@ -49,10 +49,10 @@ const Description = () => {
               </div>
             ) : null}
 
-            <h1 className="text-white">{activeItem.title}</h1>
+            <h1 className="text-white text-2xl md:text-5xl">{activeItem.title}</h1>
           </div>
 
-          <p className="text-gray-300 mt-8 whitespace-pre-line">
+          <p className="text-gray-300 md:mt-8 whitespace-pre-line">
             {activeItem.description}
           </p>
         </div>
