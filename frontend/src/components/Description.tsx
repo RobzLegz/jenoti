@@ -13,7 +13,37 @@ const Description = () => {
       className="w-full p-20 flex flex-col gap-36 z-20 bg-black/80"
       id="learn-more"
     >
-      {activeItem ? <div className="w-full h-screen absolute top-0 left-0"></div> : null}
+      {activeItem ? (
+        <div className="w-full h-screen overflow-y-auto fixed top-0 left-0 bg-black p-20">
+          <div className="flex gap-8 items-end mb-4">
+            {activeItem.images.length === 1 ? (
+              <Image
+                src={activeItem.images[0]}
+                alt={activeItem.title}
+                width={400}
+                height={400}
+                className="w-[400px] rounded-lg"
+              />
+            ) : activeItem.images.length > 1 ? (
+              <div className="grid grid-cols-2 gap-2">
+                {activeItem.images.map((img, i) => (
+                  <Image
+                    src={img}
+                    alt={activeItem.title}
+                    width={400}
+                    height={400}
+                    className="w-[200px] h-[200px] object-cover rounded-lg"
+                  />
+                ))}
+              </div>
+            ) : null}
+
+            <h1 className="text-white">{activeItem.title}</h1>
+          </div>
+
+          <p className="text-gray-300">{activeItem.description}</p>
+        </div>
+      ) : null}
 
       {data.map((item, i) => (
         <div className="flex w-full items-center justify-center gap-8" key={i}>
@@ -48,7 +78,10 @@ const Description = () => {
 
             <button
               className="w-48 h-12 rounded-full bg-black text-white border-2 border-white mt-6"
-              onClick={() => setActiveItem(item)}
+              onClick={() => {
+                setActiveItem(item);
+                document.body.style.overflow = "hidden";
+              }}
             >
               Learn more
             </button>
