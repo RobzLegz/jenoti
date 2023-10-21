@@ -9,7 +9,7 @@ const Header = () => {
       <div className="w-full h-full absolute top-0 left-0 z-10 bg-black/30 flex flex-col items-center justify-center">
         <h1 className="text-white text-center mb-4">LatSat</h1>
 
-        <h2 className="text-white text-center max-w-[1000px] md:leading-[65px] opacity-80">
+        <h2 className="text-white text-center max-w-[1000px] md:leading-[65px] opacity-90">
           Private independent satelite network
         </h2>
 
