@@ -10,6 +10,10 @@
   h1 {
     @apply text-5xl;
   }
+
+  h2 {
+    @apply text-4xl;
+  }
 }
 
 * {
@@ -17,5 +21,9 @@
 }
 
 h1 {
+  font-family: "Rubik Mono One", monospace;
+}
+
+h2 {
   font-family: "Rubik Mono One", monospace;
 }
