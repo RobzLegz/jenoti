@@ -16,7 +16,7 @@ const Header = () => {
         <div className="flex items-center justify-center gap-4 mt-10">
           <Link
             href="#learn-more"
-            className="flex items-center justify-center w-[150px] md:w-60 h-16 border-2 border-white text-white bg-black text-xl rounded-full"
+            className="flex items-center justify-center w-[200px] md:w-60 h-14 border-2 border-white text-white bg-black text-xl rounded-full"
           >
             Learn more
           </Link>
