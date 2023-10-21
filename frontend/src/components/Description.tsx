@@ -49,7 +49,9 @@ const Description = () => {
               </div>
             ) : null}
 
-            <h1 className="text-white text-2xl md:text-5xl">{activeItem.title}</h1>
+            <h1 className="text-white text-2xl md:text-5xl">
+              {activeItem.title}
+            </h1>
           </div>
 
           <p className="text-gray-300 md:mt-8 whitespace-pre-line">
@@ -62,7 +64,7 @@ const Description = () => {
         <div
           className={`flex w-full items-center justify-center gap-4 md:gap-8 ${
             i % 2 === 0 ? "flex-col" : "flex-col-reverse"
-          }`}
+          } md:flex-row`}
           key={i}
         >
           {i % 2 === 0 ? (
