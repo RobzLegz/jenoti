@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
+import { XMarkIcon } from "@heroicons/react/24/solid";
 
 const Description = () => {
   const [activeItem, setActiveItem] = useState<{
@@ -15,6 +16,16 @@ const Description = () => {
     >
       {activeItem ? (
         <div className="w-full h-screen overflow-y-auto fixed top-0 left-0 bg-black p-20">
+          <button
+            className="absolute top-4 right-4"
+            onClick={() => {
+              setActiveItem(null);
+              document.body.style.overflow = "auto";
+            }}
+          >
+            <XMarkIcon className="text-white h-12" />
+          </button>
+
           <div className="flex gap-8 items-end mb-4">
             {activeItem.images.length === 1 ? (
               <Image
