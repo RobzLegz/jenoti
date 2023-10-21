@@ -4,7 +4,7 @@ import React from "react";
 const Description = () => {
   return (
     <section
-      className="w-full p-20 flex flex-col gap-36 z-20 bg-black/90"
+      className="w-full p-20 flex flex-col gap-36 z-20 bg-black/80"
       id="learn-more"
     >
       <div className="flex w-full items-center justify-center gap-8">
