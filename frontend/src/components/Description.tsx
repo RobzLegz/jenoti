@@ -11,7 +11,7 @@ const Description = () => {
 
   return (
     <section
-      className="w-full p-20 flex flex-col gap-36 z-20 bg-black/80"
+      className="w-full p-4 pb-20 md:p-20 flex flex-col gap-16 md:gap-36 z-20 bg-black/80"
       id="learn-more"
     >
       {activeItem ? (
@@ -59,7 +59,12 @@ const Description = () => {
       ) : null}
 
       {data.map((item, i) => (
-        <div className="flex w-full items-center justify-center gap-8" key={i}>
+        <div
+          className={`flex w-full items-center justify-center gap-4 md:gap-8 ${
+            i % 2 === 0 ? "flex-col" : "flex-col-reverse"
+          }`}
+          key={i}
+        >
           {i % 2 === 0 ? (
             item.images.length === 1 ? (
               <Image
@@ -67,7 +72,7 @@ const Description = () => {
                 alt={item.title}
                 width={400}
                 height={400}
-                className="w-[400px] rounded-lg"
+                className="w-full max-w-[500px] lg:w-[400px] rounded-lg"
               />
             ) : item.images.length > 1 ? (
               <div className="grid grid-cols-2 gap-2">
@@ -85,7 +90,7 @@ const Description = () => {
           ) : null}
 
           <div className="flex flex-col">
-            <strong className="text-white text-4xl max-w-[500px]">
+            <strong className="text-white text-3xl md:text-4xl max-w-[500px]">
               {item.title}
             </strong>
 
@@ -107,7 +112,7 @@ const Description = () => {
                 alt={item.title}
                 width={400}
                 height={400}
-                className="w-[400px] rounded-lg"
+                className="w-full max-w-[500px] lg:w-[400px] rounded-lg"
               />
             ) : item.images.length > 1 ? (
               <div className="grid grid-cols-2 gap-2">
