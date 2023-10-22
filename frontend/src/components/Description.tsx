@@ -150,17 +150,31 @@ const data = [
   {
     title: "24/7 data collection & comunication",
     images: ["/resources/communication.jpg"],
-    description: dummyDescription,
+    description: `
+    Welcome to the future of satellite technology, where innovation meets efficiency. Our groundbreaking nanosatellite network redefines the way we observe and communicate with world. These compact marvels of engineering are not just cost-effective; they also offer capabilities comparable to their larger counterparts but at a fraction of their cost.
+
+    Our nanosatellites are equipped with state-of-the-art sensors and advances imaging technology, enabling real-time, 24/7 capture and transmission of live data and imagery from any corner of the world.
+
+    But what sets us apart from other satellite networks is the independence and security. Designed with governments and military in mind the satellites are compliant with all military standards and the European Space Agency standards. Our nanosatellites offer lifeline of communication that’s both reliable and resistant to jamming - crucial asset in times of conflict. While our primary clients are governments and military organizations, we also extend this unparalleled technology to other companies and private individuals.
+
+    Experience the future with our nanosatellite network. Explore the limitless possibilities of data collection, sensor capabilities and independent communication. Join us in shaping a world where innovation meets accessibility.
+    `,
   },
   {
     title: "Real-time 3D satelite geopositioning",
     images: ["/resources/3d-satelite-positioning.png"],
-    description: dummyDescription,
+    description: `
+    Step into the future of satellite technology with our groundbreaking independent nanosatellite network. We've redefined the boundaries of what's possible by delivering real-time, 24/7 live data and 3D positioning information—all without relying on traditional GPS satellites. In an age where jamming and disruptions can be significant concerns, our 3D positioning system sets a new standard. Through advanced triangulation, we can precisely determine the location of any object by measuring the distances between our ground stations and our satellites, as well as between the satellites themselves. This remarkable achievement is made possible by the implementation of a specialized chip on our satellites and ground stations, ensuring exceptional accuracy and reliability.
+
+    Our 3D positioning data opens up a world of possibilities. It's invaluable for industries, governments, and individuals alike, providing essential location information for a wide range of applications. Whether you're tracking assets, managing logistics, or enhancing security, our nanosatellite network is here to empower your needs with real-time, dependable, and jam-resistant 3D positioning data. Welcome to the future of satellite technology.
+    `,
   },
   {
     title: "Independent from other networks and entities",
     images: ["/resources/independence.jpg"],
-    description: dummyDescription,
+    description: `
+    
+    `,
   },
   {
     title: "Self-deorbiting mechanism",
@@ -170,6 +184,8 @@ const data = [
       "/resources/deorbiting-1.gif",
       "/resources/deorbiting.gif",
     ],
-    description: dummyDescription,
+    description: `
+    
+    `,
   },
 ];
