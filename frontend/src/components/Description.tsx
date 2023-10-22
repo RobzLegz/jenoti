@@ -189,7 +189,11 @@ const data = [
       "/resources/deorbiting.gif",
     ],
     description: `
-    
+    To comply with international law and military standards, our nanosatellites will feature a deorbitiation mechanism that will deorbit the satellite at the end of its lifespan. We understand the urgent need to address the issue of space debris, a growing concern in the realm of satellite technology. To align with the international law mandating all new satellites to have a deorbitation mechanism by 2030, we've implemented an innovative solution.
+
+    Our deorbiting mechanism is achieved through a cutting-edge solar sail technology. At the end of a satellite's operational lifespan, this solar sail unfurls, providing a sustainable and efficient method for deorbiting the satellite, thus preventing the creation of additional space debris. This forward-thinking approach not only aligns with international legal requirements but also safeguards the integrity of our shared space environment for future generations.
+
+    By integrating these deorbiting mechanisms into our nanosatellites, we aim to set a new standard for responsible satellite deployment. We invite you to be a part of our mission, where technology and environmental responsibility converge, ensuring the sustainability of our presence in outer space.
     `,
   },
 ];
