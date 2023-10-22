@@ -1,4 +1,4 @@
-lat,long,gps_alt,sats,tottal acc,gyro,gyro 1,gyro 2,baro altitude,baro pressure,temp,humid,addres,dist,last gps,time ms,,,
+lat,long,gps_alt,sats,total acc,gyro,gyro 1,gyro 2,baro altitude,baro pressure,temp,humid,addres,dist,last gps,time ms,,,
 37.29702,-3.68295,753.4,4,0,0,0,0,693.3,934.31,31.23,34.57,0,-1,53,503321,0,0,0
 37.297016,-3.682949,754.9,4,0,0,0,0,685.6,935.18,31.41,34.42,12345674,2.21,32,504399,0,0,0
 37.297012,-3.682946,754.5,4,0,0,0,0,693.9,934.24,31.46,34.17,12345671,-1,31,505479,0,0,0
