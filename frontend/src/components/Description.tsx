@@ -173,7 +173,11 @@ const data = [
     title: "Independent from other networks and entities",
     images: ["/resources/independence.jpg"],
     description: `
-    
+    Welcome to the future of satellite technology, where independence and innovation converge in our state-of-the-art nanosatellite network. Our satellites stand apart from all other networks, offering real-time, 24/7 communication and 3D positioning data without reliance on traditional GPS and telecommunication satellites, which can be susceptible to jamming.
+
+    Our groundbreaking 3D positioning system leverages radio frequency signals and triangulation to accurately determine the location of any object. Unlike conventional systems, we have the flexibility to swiftly adapt and change frequencies in case of interference, ensuring uninterrupted communication and 3D positioning data. This resilience is made possible by the implementation of a special chip on both our satellites and ground stations.
+
+    Our independent network is a game-changer, offering unparalleled data and positioning capabilities. Whether you're tracking assets, optimizing logistics, or ensuring robust communication, our system empowers you with dependable and jam-resistant technology. Embrace the future with us, and experience the true meaning of satellite independence and innovation.
     `,
   },
   {
@@ -185,7 +189,11 @@ const data = [
       "/resources/deorbiting.gif",
     ],
     description: `
-    
+    To comply with international law and military standards, our nanosatellites will feature a deorbitiation mechanism that will deorbit the satellite at the end of its lifespan. We understand the urgent need to address the issue of space debris, a growing concern in the realm of satellite technology. To align with the international law mandating all new satellites to have a deorbitation mechanism by 2030, we've implemented an innovative solution.
+
+    Our deorbiting mechanism is achieved through a cutting-edge solar sail technology. At the end of a satellite's operational lifespan, this solar sail unfurls, providing a sustainable and efficient method for deorbiting the satellite, thus preventing the creation of additional space debris. This forward-thinking approach not only aligns with international legal requirements but also safeguards the integrity of our shared space environment for future generations.
+
+    By integrating these deorbiting mechanisms into our nanosatellites, we aim to set a new standard for responsible satellite deployment. We invite you to be a part of our mission, where technology and environmental responsibility converge, ensuring the sustainability of our presence in outer space.
     `,
   },
 ];
